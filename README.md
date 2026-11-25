@@ -23,3 +23,14 @@ Jika koin belum habis, pintu akan terkunci.
 
 ## Fitur Progres 1
 - Menu Utama: START, HOW TO PLAY, EXIT
+  - Pergerakan WASD 
+  - Arrow Key-
+  - Tabrakan dinding-
+  - Sistem koin (+10 poin)
+  - Pintu terkunci jika koin belum habis
+  - ## PENJELASAN-
+  - # : Dinding-
+  - . : Jalan-
+  - $ : Koin-
+  - P : Pemain-
+  - E : Pintu keluar

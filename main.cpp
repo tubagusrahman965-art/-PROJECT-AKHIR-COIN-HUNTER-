@@ -50,4 +50,43 @@ vector<string> createMaze(int level) {
         }
     }
     
-    
+     maze[1][1] = 'S';
+
+    maze[13][29] = 'E';
+
+    if (level == 1) {
+
+        maze[2][3] = '$';
+        maze[5][4] = '$';
+        maze[5][10] = '$';
+        maze[10][11] = '$';
+        maze[8][17] = '$';
+        maze[12][25] = '$';
+
+    }
+    else if (level == 2) {
+
+        maze[2][3] = '$';
+        maze[11][4] = '$';
+        maze[7][10] = '$';
+        maze[2][11] = '$';
+        maze[8][17] = '$';
+        maze[12][25] = '$';
+        maze[3][26] = '$';
+
+    }
+    else {
+
+        maze[2][3] = '$';
+        maze[11][4] = '$';
+        maze[7][10] = '$';
+        maze[2][11] = '$';
+        maze[8][17] = '$';
+        maze[3][18] = '$';
+        maze[12][25] = '$';
+        maze[3][26] = '$';
+
+    }
+
+    return maze;
+}
